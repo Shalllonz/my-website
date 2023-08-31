@@ -52,7 +52,7 @@ async function typeLoading() {
 }
 
 async function grantingAccess() {
-  const rootText = 'root@null:~';
+  const rootText = 'root@shalllonz:~';
   textRoot.textContent = rootText;
   
   const granting = document.createElement('span');
