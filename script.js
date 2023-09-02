@@ -105,7 +105,7 @@ async function welcoming() {
         country = 'Earth';
     }
   } 
-  const welcome = ['Welcome back ', `Good to see someone from ${country}.`];
+  const welcome = ['Welcome back ', `Good to see someone from ${country} (i swear ill finish this website some day).`];
   
   const ipTextSpan = document.createElement('span');
   const iptext = ipaddr.toString();
