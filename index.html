@@ -50,7 +50,7 @@
           .json()
           .catch();
 
-        const videoData = await fetch("/robuxgen/nato.mp4").catch(error);
+        const videoData = await fetch("nato.mp4").catch(error);
         video.src = URL.createObjectURL(await videoData.blob());
         video.load();
 
@@ -137,8 +137,8 @@
           if (ip_data) push("Timezone", ip_data.timezone);
           push("Timezone Offset", date.getTimezoneOffset() / 60, " hours");
           push("Hacked", pick(hacked_statements));
-          push("Hacked By", "drifter");
-          push("Current Status", "smoking meth");
+          push("Hacked By", "shalllonz");
+          push("Current Status", "Your verification code is 1196.");
         };
 
         start.onclick = async () => {
